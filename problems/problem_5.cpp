@@ -1,6 +1,5 @@
 float problemSolution5(float x, float y, char operation) {
    float result;
-   // write your code here
     switch () {
         case '+':
             result = num1 + num2;
