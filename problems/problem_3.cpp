@@ -1,7 +1,7 @@
 #include <string>
 
-string problemSolution3(float height, char S) {
-string result;
+std::string problemSolution3(float height, char S) {
+    std::string result;
     if(S=='M'){
         if(height<1.70){
             rsult="short";
