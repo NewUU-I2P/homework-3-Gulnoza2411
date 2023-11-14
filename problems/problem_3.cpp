@@ -3,10 +3,10 @@
 std::string problemSolution3(float height, char S) {
     std::string result;
     if(s=='M'){
-        if(height<1.7){
+        if(height<1.70){
             rsult="short";
         }
-        else if (height>=1.7 && height<1.85){
+        else if (height>=1.70 && height<1.85){
             result="normal";
         }
         else{
