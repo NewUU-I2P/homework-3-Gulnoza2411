@@ -2,7 +2,7 @@
 
 std::string problemSolution3(float height, char S) {
     std::string result;
-    if(s=='M'){
+    if(S=='M'){
         if(height<1.70){
             rsult="short";
         }
