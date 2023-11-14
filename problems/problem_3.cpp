@@ -20,7 +20,7 @@ std::string problemSolution3(float height, char S) {
                result="normal";
            }
            else{
-               result="tall"
+               result="tall";
            }
        }
        return result;
