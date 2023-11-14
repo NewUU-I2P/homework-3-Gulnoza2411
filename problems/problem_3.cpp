@@ -1,7 +1,7 @@
 #include <string>
 
 string problemSolution3(float height, char S) {
-    std::string result;
+string result;
     if(S=='M'){
         if(height<1.70){
             rsult="short";
@@ -19,7 +19,7 @@ string problemSolution3(float height, char S) {
             else if (height>=1.6 && height<1.75){
                 result="normal";
             }
-            else{
+    else{
                 result="tall";
             }
         }
