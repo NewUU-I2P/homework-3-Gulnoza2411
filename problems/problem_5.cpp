@@ -1,26 +1,19 @@
 float problemSolution5(float x, float y, char operation) {
    float result;
-    switch () {
-        case '+':
-            result = num1 + num2;
+    switch (operation) {
+        case ('+'):
+            result = x+y;
             break;
-        case '-':
-            result = num1 - num2;
+        case ('-'):
+            result = x-y;
             break;
-        case '*':
-            result = num1 * num2;
+        case ('*'):
+            result = x*y;
             break;
-        case '/':
-            if (num2 != 0) {
-                result = num1 / num2;
-            } else {
-                cout << "Error" << endl;
-                return 1;
-            }
+        case ('/'):
+            result=x/y;
             break;
-        default:
-            cout << "Error" << endl;
-            return 1;
+           //write your code here
     }
    return result;
 }
